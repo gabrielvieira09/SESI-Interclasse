@@ -1,0 +1,102 @@
+.audiowide-regular {
+   font-family: "Audiowide", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+ } 
+
+.title {
+   text-align: center;
+   font-size: 40px;
+   text-transform: uppercase;
+   font-family: "Audiowide", sans-serif;
+   margin-top: 60px;        
+}
+.todas-pontuação {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+.pontuacao-linha {
+   display: flex;
+   flex-wrap: wrap;
+   align-items:center;
+   justify-content: center;
+}
+.pontuacao_div {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+/*Tabela de Pontos*/
+
+.tabela-pontuacao {
+   background-color:#1E598F;
+   width:400px;
+   height:500px;
+   border-radius:10px;
+   margin-bottom: 50px;
+   margin: 30px 30px
+}
+.tabela-pontuacao-header {
+   color: white;
+   display: flex;
+   justify-content: space-between;
+   margin: 40px 30px 0px 50px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.tabela-pontuacao-header-div-1 {
+   width:180px;
+   margin-top:-20px;
+}
+.tabela-pontuacao-header-div-2 {
+   width:138px;
+   display:flex;
+   justify-content:space-between;
+
+}
+.tabela-pontuacao-times {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 20px;
+}
+.tabela-pontuacao-times main {
+   background-color: #3973b8;
+   width: 80%;
+   height: 30px;
+   border-radius: 10px;
+   display: flex;
+}
+#tabela-pontuacao-flag {
+   background-color: white;
+   width: 70px;
+   height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.tabela-pontuacao-times img {
+   width: 32px;
+   height: 22px;
+}
+#tabela-pontuacao-div-1{
+   width: 270px;
+   height: auto;
+   display: flex;
+   justify-content: first baseline;
+   color: white;
+   align-items: center;
+}
+#tabela-pontuacao-div-2{
+   color: white;
+   width: 265px;
+   height: auto;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+/*Tabela de Pontos (FIM)*/

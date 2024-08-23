@@ -1,0 +1,332 @@
+body{
+   margin: 0px;
+   padding: 0px;
+}
+.container {
+  background-color: #ffffff;
+  color: #333;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.fundo_principal {
+   width: 100%;
+}
+.fundo_principal::after {
+   content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, white 70%);
+}
+.fundo_principal img{
+   width: 100%;
+   margin: 0px;
+   padding: 0px;
+}
+
+
+/* Placar de Hoje */
+
+.hoje {
+   background-color: rgb(255, 255, 255);
+   width: 1100px;
+   height: 350px;
+   margin-top: -300px;
+   position: absolute;
+   border-radius: 15px;
+   border: solid black 3px;
+   box-shadow: 1rem 1rem 0 black;
+}
+.hoje h1 {
+   text-shadow: 3px 3px black;
+}
+.hoje_container {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+ 
+ .hoje-header {
+   background-color: #2C42C2;
+   width: 100%;
+   height: 90px;
+   border-top-left-radius: 12px;
+   border-top-right-radius: 12px;
+   display: flex;
+   justify-content: left;
+   align-items: center;
+ }
+ 
+ .hoje-header h1 {
+   color: white;
+   font-family: sans-serif;
+   margin-left: 35px;
+   font-size: 40px;
+ }
+ 
+ .hoje-content {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+ }
+ 
+ .div-jogo {
+   border-bottom: solid black 3px ;
+   width: 700px;
+   height: 60px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 35px;
+   font-family: monospace;
+   font-weight: bold;
+ }
+ 
+ .div-hora {
+   width: 700px;
+   height: 60px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 35px;
+   font-family: monospace;
+ }
+ 
+ .div-score-container {
+   display: flex;
+   width: 700px;
+   height: 60px;
+   margin-top: 20px;
+   justify-content: space-between;
+   align-items: center;
+ }
+ .div-time-score {
+   border: 3px solid black;
+   height:100%;
+   width:160px;
+   border-radius: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+ .div-time-score text {
+   font-size: 25px;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: bold;
+   margin-right: 10px;
+ }
+ .div-time-score img {
+   width: 80px;
+   height: 50px;
+ }
+ .div-versus {
+   font-weight: bold;
+   font-size: 60px;
+   font-family: sans-serif;
+ }
+
+ @media (max-width:1270px) {
+   .hoje {
+      width: 800px;
+      height: 350px;
+   }
+}
+ @media (max-width:1150px) {
+   .fundo_principal::after {
+      background:none;
+   }
+}
+
+ @media (max-width:1022px) {
+   .hoje {
+      width: 600px;
+      margin-top: -100px;
+   }
+   .div-jogo {
+      border-bottom: solid black 3px ;
+      width: 400px;
+   }
+   .div-score-container {
+      width: 400px;
+   }
+}
+@media (max-width:680px) {
+   .hoje {
+      width: 400px;
+      margin-top: -100px;
+   }
+   .div-jogo {
+      border-bottom: solid black 3px ;
+      width: 200px;
+   }
+   .div-hora {
+      width: 200px;
+    }
+    .div-score-container {
+      width: 400px;
+      display: flex;
+      flex-direction: column;
+   }
+   .hoje {
+      height: 450px;
+      margin-top: 100px;
+      position: absolute;
+      border-radius: 15px;
+      border: solid black 3px;
+   }
+   .div-time-score img {
+      margin-left: 9px;
+      width: 80px;
+      height: 55px;
+    }
+
+}
+
+/* Placar de Hoje (FIM) */
+
+
+/* Tabela Classificação*/
+
+.tabela-classificacao {
+   background-color:#1E598F;
+   width:700px;
+   height:500px;
+   margin-top:120px; 
+   border-radius:10px;
+}
+.tabela-classificacao-header {
+   color: white;
+   display: flex;
+   justify-content: space-between;
+   margin: 40px 60px 0px 80px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.tabela-classificacao-times {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 20px;
+}
+.tabela-classificacao-times main {
+   background-color: #3973b8;
+   width: 600px;
+   height: 30px;
+   border-radius: 10px;
+   display: flex;
+}
+#tabela-classificacao-flag {
+   background-color: white;
+   width: 45px;
+   height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.tabela-classificacao-times img {
+   width: 40px;
+   height: 25px;
+}
+#tabela-classificacao-div-1{
+   width: 270px;
+   height: auto;
+   display: flex;
+   justify-content: first baseline;
+   color: white;
+   align-items: center;
+}
+#tabela-classificacao-div-2{
+   color: white;
+   width: 265px;
+   height: auto;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+@media (max-width:1022px) {
+   .tabela-classificacao {
+      margin-top:200px; 
+   }
+}
+@media (max-width:850px) {
+   .tabela-classificacao {
+      background-color:#1E598F;
+      width:400px;
+      height:500px;
+      margin-top:180px; 
+}
+.tabela-classificacao-times main {
+   background-color: #3973b8;
+   width: 80%;
+   height: 30px;
+}
+.tabela-classificacao-header {
+   color: white;
+   margin: 40px 30px 0px 50px;
+}
+#tabela-classificacao-flag {
+   background-color: white;
+   width: 55px;
+   height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.tabela-classificacao-times img {
+   width: 25px;
+   height: 20px;
+}
+}
+@media (max-width:680px) {
+   .tabela-classificacao {
+      margin-top:380px; 
+}
+}
+
+
+/* Tabela Classificação (FIM)*/
+
+
+/* Abas */
+.abas {
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   margin-top:50px;
+   margin-bottom:75px;
+}
+.aba-individual {
+   width: 430px;
+   height: 269px;
+   cursor: pointer;
+   border-radius: 10px;
+}
+#aba_resultados {
+   margin-right: 50px;
+}
+
+@media (max-width:1000px) {
+   .abas {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-bottom:75px;
+   }
+   .aba-individual {
+      margin-top: 50px;
+   }
+   #aba_resultados {
+      margin-right: 0px;
+   }
+}
+
+/* Abas (FIM) */

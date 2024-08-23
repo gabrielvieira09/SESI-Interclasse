@@ -1,0 +1,81 @@
+   .audiowide-regular {
+      font-family: "Audiowide", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+    
+
+.desenvolvedores-container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+}
+.div-names {
+   width: 80%;
+   height: 30px;
+   display: flex;
+   justify-content: first baseline;
+   align-items: center;
+   margin: 20px 0px;
+}
+.names {
+   font-size: 30px;
+   font-weight: bold;
+   font-family: "Audiowide", sans-serif;
+}
+.dev-title {
+   font-size: 40px;
+   text-transform: uppercase;
+   font-family: "Audiowide", sans-serif;
+   margin-top: 50px;
+}
+.desenvolvedores-caixas {
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+}
+.caixas-dev {
+   background-color: #2C42C2;
+   border-radius: 20px;
+   box-shadow: 0.1rem 0.1rem 1rem black;
+   width: 300px;
+   height: 300px;
+   margin: 30px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+.caixas-dev-div-1 {
+   width:130px;
+   height:130px;
+   background-color:#8395FF;
+   border-radius:100px;
+   margin-bottom:10px;
+   border: 5px solid #11238C
+}
+.caixas-dev-div-2 {
+   width:270px;
+   height:120px;
+   background-color:#F2F4FF;
+   border-radius:20px;
+   border: 5px solid #C4CDFF;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.caixas-dev-div-2-nome {
+   width: 250px;
+   height: 30px;
+   margin-top: 5px;
+   border-bottom: solid black 1px ;
+   display: flex;
+   font-size: 20px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   align-items: center;
+   justify-content: first baseline;
+}

@@ -1,0 +1,101 @@
+.container_pagina{
+    text-align: center;
+  
+    
+}
+
+.image_jogo{
+    width: 100%;
+    
+}
+
+.data{
+    
+    display: flex;
+    justify-content: space-between;
+    margin:100px;
+
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.hora{
+    margin:18px;
+    color: rgb(108, 108, 108);
+}
+
+.times{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+
+hr{
+    width: 85%;
+    margin-top: -1px;
+    margin-bottom: 10px;
+}
+.linha{
+    border-width: 1px;
+    
+}
+
+.container_jogo{
+    font-size: 25px;
+    margin: auto;
+    width: 700px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 9px;
+    border: solid 2px;
+    box-shadow: 6px 10px black;
+    padding: 50px;
+    margin-bottom: 60px;
+}
+
+.flag{
+   width: 100px;
+   margin-bottom: -16px;
+   margin-left: 5px;
+   object-fit: cover;
+}
+@media (max-width:870px){
+   .container_jogo{
+      margin: auto;
+      width: 500px;
+      height: 300px;
+      padding: 50px;
+      margin-bottom: 60px;
+   }
+}
+@media (max-width:680px){
+   .container_jogo{
+      margin: auto;
+      width: 400px;
+      height: 580px;
+      padding: 30px;
+      margin-bottom: 60px;
+   }
+   .times{
+      display: flex;
+      flex-direction: column;
+      margin: 30px;  
+      margin-top: 8px;
+      align-items: center;
+  }  
+  .time {
+   font-size: 30px;
+   margin-left: 10px;
+  }
+  .flag{
+   width: 75px;
+   height: 55px;
+   border-radius: 10px;
+   margin-bottom: -16px;
+   margin-left: 5px;
+}
+}
+
+

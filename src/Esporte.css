@@ -1,0 +1,30 @@
+.container_esporte {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+}
+.title {
+   font-size: 50px;
+   font-family: sans-serif;
+   margin-top: 50px;
+}
+.div_esportes {
+   text-align: center;
+}
+.esportes {
+   width: 300px;
+   height: 200px;
+   margin: 35px;
+   cursor: pointer;
+}
+
+@media (max-width: 1412px) {
+   .div_title{
+      text-align: center;
+   }
+   .title {
+      margin-left: 0px;
+   }
+}
