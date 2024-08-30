@@ -100,3 +100,20 @@
 }
 
 /*Tabela de Pontos (FIM)*/
+
+@media (max-width:500px) {
+   .title{
+      font-size: 30px;
+   }
+   .tabela-pontuacao {
+      width:300px;
+   }
+   .tabela-pontuacao-header {
+      margin: 40px 30px 0px 50px;
+   }
+   .tabela-pontuacao-header-div-2 {
+   width: 148px;
+   margin-right: -10px;
+   }
+
+}

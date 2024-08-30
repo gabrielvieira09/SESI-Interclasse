@@ -56,7 +56,7 @@ function Atletismo(){
             <div className="container_jogo">
 
             <div className="data">
-             <div >Atletismo</div>
+             <div>Atletismo</div>
              <div>26/09-TER</div>
             </div>
 

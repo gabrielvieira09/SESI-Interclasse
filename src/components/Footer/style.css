@@ -22,3 +22,16 @@
       height: 100px;
    }
 }
+@media (max-width: 500px) {
+   .footer {
+      display: flex;
+      flex-direction: column;
+      height: 100px;
+   }
+   #logo_sesi {
+      width: 90px;
+      height: 40px;
+      margin-right: 20px;
+      margin-top: -10px;
+   }
+}

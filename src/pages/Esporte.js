@@ -16,7 +16,7 @@ function Esporte() {
    <div className="container_esporte">
       <Header />
       <div className="div_title" style={{width:"100%", height:100,marginBottom:50}}>
-         <h1 className="title">Esportes</h1>
+         <h1 className="title-esportes">Esportes</h1>
       </div>
       <div className="div_esportes">
          <div>

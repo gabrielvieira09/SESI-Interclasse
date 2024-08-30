@@ -79,3 +79,12 @@
    align-items: center;
    justify-content: first baseline;
 }
+
+@media (max-width:500px){
+   .dev-title {
+      font-size: 20px;
+      text-transform: uppercase;
+      font-family: "Audiowide", sans-serif;
+      margin-top: 50px;
+   }
+}

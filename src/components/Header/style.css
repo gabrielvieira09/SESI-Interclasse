@@ -58,3 +58,20 @@
       margin-bottom: 10px;
    }
 }
+
+@media (max-width: 500px) {
+   .icone {
+      display: none;
+   }
+   .links-div {
+      margin-left: 20px;
+   }
+   .titulo {
+      font-size: 10px;
+   }
+   .links {
+      margin-top: 10px;
+      margin-bottom: 0px;
+      margin-left: -45px;  
+   }
+}

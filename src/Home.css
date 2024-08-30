@@ -210,6 +210,15 @@ body{
     }
 
 }
+@media (max-width:500px) {
+   .hoje {
+      width: 300px;
+      margin-top: 300px;
+   }
+   .div-score-container {
+      width: 100%;
+   }
+}
 
 /* Placar de Hoje (FIM) */
 
@@ -311,6 +320,16 @@ body{
       margin-top:380px; 
 }
 }
+@media (max-width:500px) {
+   .tabela-classificacao {
+      margin-top:450px; 
+      width:300px;
+      height:500px;
+}
+.tabela-classificacao-header {
+   margin: 40px 30px 0px 20px;
+}
+}
 
 
 /* Tabela Classificação (FIM)*/
@@ -347,6 +366,12 @@ body{
    }
    #aba_resultados {
       margin-right: 0px;
+   }
+}
+@media (max-width:500px) {
+   .aba-individual {
+      width: 300px;
+      height: 250px;
    }
 }
 

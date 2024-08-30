@@ -97,5 +97,18 @@ hr{
    margin-left: 5px;
 }
 }
-
+@media (max-width:500px){
+   .container_jogo{
+      margin: auto;
+      width: 250px;
+      height: 620px;
+      padding: 30px;
+      margin-bottom: 60px;
+}
+.data {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+}
+}
 

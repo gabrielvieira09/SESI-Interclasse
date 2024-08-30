@@ -1,3 +1,9 @@
+.audiowide-regular {
+   font-family: "Audiowide", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+ } 
+
 .container_esporte {
    display: flex;
    flex-direction: column;
@@ -5,9 +11,9 @@
    justify-content: center;
    text-align: center;
 }
-.title {
+.title-esportes {
    font-size: 50px;
-   font-family: sans-serif;
+   font-family: "Audiowide", sans-serif;
    margin-top: 50px;
 }
 .div_esportes {
@@ -26,5 +32,10 @@
    }
    .title {
       margin-left: 0px;
+   }
+}
+@media (max-width:500px){
+   .title-esportes {
+      font-size: 40px;
    }
 }
